@@ -6,7 +6,7 @@ int main(void)
 {
     int c;
 
-    while (c = getchar() != EOF)
+    if (c = getchar() != EOF)
     {
         putchar(c);
         printf("%d\n", c); /* C is one when displayed with printf*/
