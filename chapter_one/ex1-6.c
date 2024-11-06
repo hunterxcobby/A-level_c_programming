@@ -4,13 +4,13 @@
 
 int main(void)
 {
-    int c;
+	int c;
 
-    if (c = getchar() != EOF)
-    {
-        putchar(c);
-        printf("%d\n", c); /* C is one when displayed with printf*/
-    }
+	if (c = getchar() != EOF)
+	{
+		putchar(c);
+		printf("%d\n", c); /* C is one when displayed with printf*/
+	}
 
-    return (0);
+	return (0);
 }
