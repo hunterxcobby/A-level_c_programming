@@ -8,25 +8,25 @@
 
 int main(void)
 {
-    int c;
-    int bl = 0;
+	int c;
+	int bl = 0;
 
-    while ((c = getchar()) != EOF)
-    {
-        if (c == ' ')
-        {
-            if (bl == 0)
-            {
-                putchar(c);
-                bl = 1;
-            }
-        }
-        else
-        {
-            putchar(c);
-            bl = 0;
-        }
-    }
+	while ((c = getchar()) != EOF)
+	{
+		if (c == ' ')
+		{
+			if (bl == 0)
+			{
+				putchar(c);
+				bl = 1;
+			}
+		}
+		else
+		{
+			putchar(c);
+			bl = 0;
+		}
+	}
 
-    return (0);
+	return (0);
 }
